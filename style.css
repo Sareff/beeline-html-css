@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Abel', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 76px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 46px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Header section */
+
+.header {
+	width: 100%;
+}
+
+.nav {
+	height: 10%;
+	padding-top: 1%;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.logo {
+  	width: 55px;
+  	height: 55px;
+  	margin-top: 17px;
+  	margin-bottom: 17px;
+	background-color: #D8D8D8;
+  	border-radius: 50%;
+}
+
+.nav_list {
+	list-style-type: none;
+}
+
+.nav_list li { 
+	width: 154px;
+	height: 31px;
+	background-color: #D8D8D8;
+	display: inline-block;
+}
+
+.nav_list .li {
+	margin-right: 40px;
+}
+
+
+.banner {
+	width: 100%;
+	height: 450px;
+	background-color: #D8D8D8;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 130px;
+}
+.inline_buttons {
+	padding-top: 29px;
+}
+.button {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: #fff;
+}
+.button_white {
+	background-color: #fff;
+	color: #000;
+}
+.button_black {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Main section */
+
+.main {
+	width: 100%;
+}
+
+.hCardsContainer {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 110px;
+	margin-right: 110px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hCard {
+	height: auto;
+	width: 31%;
+	color: #1C1E20;
+}
+.hCard h3 {
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: normal;
+}
+.hCard p {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.hCard a {
+	color: #787878;
+}
+.hCard_pic {
+	max-width: 380px;
+	height: 244px;
+	background-color: #D8D8D8;
+}
+
+.signUpForm {
+	width: 100%;
+	height: 395px;
+	background-color: #D8D8D8;
+}
+.signUpForm input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 110px;
+}
+
+.signUpForm_Content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.signUpForm_Content p {
+	letter-spacing: 4.375px;
+	font-size: 35px;
+	line-height: 47px;
+}
+.signUpForm_Content button {
+	border: none;
+
+}
+.sign_inline {
+	padding-top: 30px;
+	display: flex;
+}
+
+.wCardsContainer {
+	width: 100%;
+	height: auto;
+	padding-left: 125px;
+	padding-right: 125px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+}
+.wCard {
+	width: 100%;
+	display: flex;;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+.wCard_info {
+	text-align: right;
+	width: 45%;
+	align-self: center;
+
+}
+.wCard_info h3 {
+	padding-bottom: 8px;
+	font-size: 30px;
+	font-weight: normal;
+}
+.wCard_info p {
+	color: #1C1E20;
+}
+.wCard_pic {
+	width: 50%;
+	height: 386px;
+	background-color: #D8D8D8;
+}
+
+.wReverse {
+	flex-direction: row-reverse;
+}
+.wReverse .wCard_info {
+	text-align: left;
+}
+.wCardsContainer a {
+	align-self: center;
+}
+
+/* Footer section */
+
+.footer {
+	width: 100%;
+	height: auto;
+	padding-top: 97px;
+	padding-bottom: 97px;
+	background-color: #D8D8D8;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .logo {
+	background-color: #fff;
+	padding-bottom: 30px;
+}
+.footer li {
+    width: 154px;
+    height: 31px;
+    background-color: #FFF;
+    display: inline-block;
+}
+.footer ul {
+	padding-bottom: 29px;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;	
+}
+.line {
+	display: block;
+	width: 70%;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.soc {
+	padding-top: 48px;
+	color: #231F20;
+	font-size: 36px;
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+}
